@@ -1,4 +1,4 @@
-## Setup
+# Setup
 
 Install Ruby 2.1.5 and bundler, OS X instructions below:
 
@@ -21,7 +21,7 @@ bundle exec rspec
 *Modified version of: [Jim Weirich's Gilded Rose Kata](https://github.com/jimweirich/gilded_rose_kata),
 itself a modified version of the orignal [Gilded Rose Kata](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/)*
 
-### Story
+## Story
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn
 with a prime location in a prominent city run by a friendly innkeeper
@@ -33,7 +33,7 @@ named Leeroy, who has moved on to new adventures. Your task is to add
 the new feature to our system so that we can begin selling a new
 category of items. First an introduction to our system:
 
-### Requirements
+## Requirements
 
 - All items have a `sell_in` value which denotes the number of days we
   have to sell the item
@@ -68,8 +68,14 @@ Just for clarification, an item can never have its `quality` increase
 above 50, however `Sulfuras` is a legendary item and as such its
 `quality` is 80 and it never alters.
 
-### Instructions
+## Instructions
 
 - Given the above requirements, update `#update_quality` in `gilded_rose.rb` to support `Conjured` items.
 - Hint: Make use of `gilded_rose_spec.rb`.
 - Be prepared to talk about your approach and resulting implementation.
+
+## Solution
+
+-- As given task 'Conjured' items needed to be degraded in quality twice as fast as normal items
+in gilded.rose.rb file added method to amend some updates in update_quality_items as requirement stated. 
+-- And in gilded_rose_spec.rb also updated
