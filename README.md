@@ -77,5 +77,5 @@ above 50, however `Sulfuras` is a legendary item and as such its
 ## Solution
 
 -- As given task 'Conjured' items needed to be degraded in quality twice as fast as normal items
-in gilded.rose.rb file added method to amend some updates in update_quality_items as requirement stated. 
--- And in gilded_rose_spec.rb also updated
+in gilded.rose.rb file, added method to amend some updates in update_quality_items as requirement stated. 
+-- And in gilded_rose_spec.rb also updated to test the written code previously in pdate_quality_items.
